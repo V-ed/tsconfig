@@ -1,11 +1,11 @@
 # tsconfig
 
-> Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for my projects
+Shared [TypeScript config](https://www.typescriptlang.org/docs/handbook/tsconfig-json.html) for my projects, heavily inspired by [Sindre Sorhus's shared tsconfig](https://github.com/sindresorhus/tsconfig).
 
 ## Install
 
-```
-$ npm install --save-dev @sindresorhus/tsconfig
+```bash
+npm install --save-dev @v-ed/tsconfig
 ```
 
 ## Usage
@@ -14,21 +14,9 @@ $ npm install --save-dev @sindresorhus/tsconfig
 
 ```json
 {
-	"extends": "@sindresorhus/tsconfig/tsconfig.json",
+	"extends": "@v-ed/tsconfig",
 	"compilerOptions": {
-		"outDir": "dist"
-	}
-}
-```
-
-When you are targeting a higher version of Node.js, check the relevant ECMAScript version and add it as `target`:
-
-```json
-{
-	"extends": "@sindresorhus/tsconfig/tsconfig.json",
-	"compilerOptions": {
-		"outDir": "dist",
-		"target": "ES2021"
+		...
 	}
 }
 ```

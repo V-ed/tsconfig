@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.2](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.1.1...tsconfig-v0.1.2) (2022-01-28)
+
+
+### Bug Fixes
+
+* **ci:** publish with public access ([4f96d11](https://github.com/V-ed/tsconfig/commit/4f96d1132bca5448105babf6daabc0c998893667))
+
 ### [0.1.1](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.1.0...tsconfig-v0.1.1) (2022-01-28)
 
 

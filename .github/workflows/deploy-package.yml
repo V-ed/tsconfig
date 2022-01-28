@@ -28,9 +28,6 @@ jobs:
       - name: Version Check
         id: check
         uses: EndBug/version-check@v2.1.0
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          file-name: ./api/package.json
 
   deploy:
     name: 'Deploy'

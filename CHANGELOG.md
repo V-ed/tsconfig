@@ -1,5 +1,12 @@
 # Changelog
 
+### [0.1.1](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.1.0...tsconfig-v0.1.1) (2022-01-28)
+
+
+### Bug Fixes
+
+* **ci:** version checker doesn't use proper path ([2b242de](https://github.com/V-ed/tsconfig/commit/2b242de6184935bd456ea700e432b8c48ef2c950))
+
 ## [0.1.0](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.0.1...tsconfig-v0.1.0) (2022-01-28)
 
 

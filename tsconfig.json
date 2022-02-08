@@ -1,39 +1,39 @@
 {
-  "compilerOptions": {
-    "allowJs": true,
+	"compilerOptions": {
+		"allowJs": true,
 
-    "typeRoots": [
-      "@types",
-      "./node_modules/@types"
-    ],
+		"typeRoots": [
+			"@types",
+			"./node_modules/@types"
+		],
 
-    "importHelpers": true,
+		"importHelpers": true,
 
-    "declaration": true,
-    "sourceMap": true,
-    "removeComments": false,
-    "incremental": true,
+		"declaration": true,
+		"sourceMap": true,
+		"removeComments": false,
+		"incremental": true,
 
-    "resolveJsonModule": true,
-    "isolatedModules": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
+		"resolveJsonModule": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"allowSyntheticDefaultImports": true,
 
-    "skipLibCheck": true,
-    "noEmitOnError": true,
-    // "importsNotUsedAsValues": "error",
+		"skipLibCheck": true,
+		"noEmitOnError": true,
+		// "importsNotUsedAsValues": "error",
 
-    "emitDecoratorMetadata": true,
-    "experimentalDecorators": true,
+		"emitDecoratorMetadata": true,
+		"experimentalDecorators": true,
 
-    "strict": true,
-    "noImplicitAny": true,
-    "noImplicitThis": true,
-    "strictNullChecks": true,
-    "strictFunctionTypes": true,
-    "strictBindCallApply": true,
-    "strictPropertyInitialization": true,
-    "alwaysStrict": true,
-    "noImplicitOverride": true,
-  }
+		"strict": true,
+		"noImplicitAny": true,
+		"noImplicitThis": true,
+		"strictNullChecks": true,
+		"strictFunctionTypes": true,
+		"strictBindCallApply": true,
+		"strictPropertyInitialization": true,
+		"alwaysStrict": true,
+		"noImplicitOverride": true,
+	}
 }

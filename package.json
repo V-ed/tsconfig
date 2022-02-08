@@ -18,5 +18,9 @@
 		"ts",
 		"config",
 		"configuration"
-	]
+	],
+	"prettier": "@v-ed/prettier-config",
+	"devDependencies": {
+		"@v-ed/prettier-config": "0.1.1"
+	}
 }

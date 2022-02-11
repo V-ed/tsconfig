@@ -12,6 +12,12 @@
 			"source.fixAll": true
 		},
 	},
+	"[jsonc]": {
+		"editor.defaultFormatter": "vscode.json-language-features",
+		"editor.codeActionsOnSave": {
+			"source.fixAll": true
+		},
+	},
 	"[yaml]": {
 		"editor.defaultFormatter": "esbenp.prettier-vscode",
 		"editor.formatOnSave": true,

@@ -20,7 +20,11 @@
 		"configuration"
 	],
 	"prettier": "@v-ed/prettier-config",
+	"eslintConfig": {
+		"extends": ["@v-ed/eslint-config"]
+	},
 	"devDependencies": {
+		"@v-ed/eslint-config": "0.1.0",
 		"@v-ed/prettier-config": "0.1.1"
 	}
 }

@@ -36,5 +36,6 @@
 		"alwaysStrict": true,
 		"noImplicitOverride": true,
 		"noUncheckedIndexedAccess": true,
+		"importsNotUsedAsValues": "error",
 	}
 }

@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.0](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.1.2...tsconfig-v0.2.0) (2022-05-03)
+
+
+### Features
+
+* add importsNotUsedAsValues rule ([c2bcd90](https://github.com/V-ed/tsconfig/commit/c2bcd90d66ea9c97c93caa3135d7955fb14d55f5))
+* add noUncheckedIndexedAccess rule ([18e0296](https://github.com/V-ed/tsconfig/commit/18e029625ce28038dcf3dc87b2380c843ffbe3c6))
+
 ### [0.1.2](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.1.1...tsconfig-v0.1.2) (2022-01-28)
 
 

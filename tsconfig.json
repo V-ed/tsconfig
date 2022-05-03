@@ -35,5 +35,6 @@
 		"strictPropertyInitialization": true,
 		"alwaysStrict": true,
 		"noImplicitOverride": true,
+		"noUncheckedIndexedAccess": true,
 	}
 }

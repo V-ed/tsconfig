@@ -2,11 +2,11 @@ lockfileVersion: 5.4
 
 specifiers:
   '@v-ed/eslint-config': 0.1.3
-  '@v-ed/prettier-config': 0.1.1
+  '@v-ed/prettier-config': 0.1.2
 
 devDependencies:
   '@v-ed/eslint-config': 0.1.3
-  '@v-ed/prettier-config': 0.1.1
+  '@v-ed/prettier-config': 0.1.2
 
 packages:
 
@@ -166,8 +166,8 @@ packages:
       - supports-color
     dev: true
 
-  /@v-ed/prettier-config/0.1.1:
-    resolution: {integrity: sha512-DyhQikR55iBRCdSgAGOCi6IdoBs5lEzJgMTOLt4n3sF2jp9E6lHnKu6/h2v//N9jQX0qpsuFXW4rX7X/HzS7IA==}
+  /@v-ed/prettier-config/0.1.2:
+    resolution: {integrity: sha512-X0DBqlnEiFzPwNaPJ2emNDDUi7r+tJm0jbj/fGfNf5roQ7DNicJ3V9DbAx/lqB/8m37mhWBksMhSqGqubjWlgQ==}
     engines: {node: '>=14'}
     dev: true
 

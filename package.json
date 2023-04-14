@@ -12,6 +12,9 @@
 	"files": [
 		"tsconfig.json"
 	],
+	"scripts": {
+		"test": "tsc"
+	},
 	"keywords": [
 		"tsconfig",
 		"typescript",
@@ -28,5 +31,8 @@
 	"devDependencies": {
 		"@v-ed/eslint-config": "0.1.3",
 		"@v-ed/prettier-config": "0.1.2"
+	},
+	"peerDependencies": {
+		"typescript": "^4.9.0"
 	}
 }

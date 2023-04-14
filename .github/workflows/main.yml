@@ -1,0 +1,47 @@
+name: CI
+
+on:
+  push:
+    paths:
+      - 'tsconfig.json'
+      - 'pnpm-lock.yaml'
+      - '.github/workflows/main.yml'
+
+env:
+  NODE_VERSION: '16'
+  PNPM_VERSION: 8
+
+jobs:
+  lint:
+    name: Lint
+    runs-on: ubuntu-latest
+
+    if: contains(fromJson('["ved-bot", "renovate[bot]"]'), github.actor) == false
+
+    steps:
+      - name: Check for dupe action
+        id: skip_check
+        uses: fkirc/skip-duplicate-actions@v4
+
+      - uses: actions/checkout@v3
+        if: steps.skip_check.outputs.should_skip != 'true'
+
+      - name: Install pnpm
+        if: steps.skip_check.outputs.should_skip != 'true'
+        uses: pnpm/action-setup@v2
+        with:
+          version: ${{ env.PNPM_VERSION }}
+
+      - uses: actions/setup-node@v3
+        if: steps.skip_check.outputs.should_skip != 'true'
+        with:
+          cache: 'pnpm'
+          node-version: ${{ env.NODE_VERSION }}
+
+      - name: Install packages
+        if: steps.skip_check.outputs.should_skip != 'true'
+        run: pnpm install
+
+      - name: Test
+        if: steps.skip_check.outputs.should_skip != 'true'
+        run: pnpm test

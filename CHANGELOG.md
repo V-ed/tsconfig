@@ -1,5 +1,13 @@
 # Changelog
 
+## [0.2.1](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.2.0...tsconfig-v0.2.1) (2023-04-14)
+
+
+### Bug Fixes
+
+* add typescript peerDependency to install ts automatically ([daf4aa2](https://github.com/V-ed/tsconfig/commit/daf4aa274f75b96abe2d2956ca12127e5a6f88df))
+* update pnpm-lock to match package.json ([0fb52d2](https://github.com/V-ed/tsconfig/commit/0fb52d212a12669c03741101655d95c3ef1fca7f))
+
 ## [0.2.0](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.1.2...tsconfig-v0.2.0) (2022-05-03)
 
 

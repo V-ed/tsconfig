@@ -4,6 +4,7 @@ on:
   push:
     paths:
       - 'tsconfig.json'
+      - 'package.json'
       - 'pnpm-lock.yaml'
       - '.github/workflows/main.yml'
 

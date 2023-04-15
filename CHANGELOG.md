@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.3.0](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.2.1...tsconfig-v0.3.0) (2023-04-14)
+
+
+### Features
+
+* update to TS v5 and add ignoreDeprecations flag ([93ae710](https://github.com/V-ed/tsconfig/commit/93ae710786834dfcd5b6ffb5568fb0003649166c))
+
 ## [0.2.1](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.2.0...tsconfig-v0.2.1) (2023-04-14)
 
 

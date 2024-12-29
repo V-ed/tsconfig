@@ -51,8 +51,7 @@ jobs:
 
       - name: Get git HEAD sha
         id: commit-vars
-        run: |
-          echo ::set-output name=git_head_sha::"$(git rev-parse HEAD)"
+        run: echo "git_head_sha=$(git rev-parse HEAD)" >> $GITHUB_OUTPUT
 
       - name: Install packages
         run: pnpm install

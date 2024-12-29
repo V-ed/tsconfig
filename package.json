@@ -7,7 +7,7 @@
 	"author": "Guillaume Marcoux",
 	"main": "tsconfig.json",
 	"engines": {
-		"node": ">=14"
+		"node": ">=16"
 	},
 	"files": [
 		"tsconfig.json"
@@ -23,11 +23,6 @@
 		"configuration"
 	],
 	"prettier": "@v-ed/prettier-config",
-	"eslintConfig": {
-		"extends": [
-			"@v-ed/eslint-config"
-		]
-	},
 	"devDependencies": {
 		"@v-ed/eslint-config": "0.2.3",
 		"@v-ed/prettier-config": "0.3.0"

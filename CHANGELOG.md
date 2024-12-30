@@ -1,5 +1,12 @@
 # Changelog
 
+## [0.4.0](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.3.0...tsconfig-v0.4.0) (2024-12-29)
+
+
+### Features
+
+* enable verbatism module syntax ([fa7583b](https://github.com/V-ed/tsconfig/commit/fa7583b47867b92b781b76b7623781e5fe7fe7f9))
+
 ## [0.3.0](https://github.com/V-ed/tsconfig/compare/tsconfig-v0.2.1...tsconfig-v0.3.0) (2023-04-14)
 
 

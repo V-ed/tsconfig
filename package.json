@@ -24,7 +24,7 @@
 	],
 	"prettier": "@v-ed/prettier-config",
 	"devDependencies": {
-		"@v-ed/eslint-config": "0.2.4",
+		"@v-ed/eslint-config": "0.2.6",
 		"@v-ed/prettier-config": "0.3.1"
 	},
 	"peerDependencies": {

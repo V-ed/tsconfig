@@ -6,7 +6,7 @@ settings:
 
 dependencies:
   typescript:
-    specifier: ^5
+    specifier: ^5 || ^6.0.0
     version: 5.9.2
 
 devDependencies:
